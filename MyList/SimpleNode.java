@@ -1,4 +1,4 @@
-package lib;
+package MyList;
 
 
 public class SimpleNode<T>

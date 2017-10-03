@@ -1,4 +1,6 @@
-package lib;
+package MyList;
+
+
 import java.util.Iterator;
 
 

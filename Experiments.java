@@ -1,5 +1,5 @@
 import java.util.List;
-import lib.*;
+import MyList.*;
 
 
 public class Experiments {
@@ -69,7 +69,7 @@ public class Experiments {
    * @param payload The actual string to be inserted
    * @return A reference to the constructed List
    */
-  public static <T>MyList<T> HeadInsert(int times, T payload) 
+  public static <T>MyList<T> HeadInsert(int times, T payload)
   {
     MyList<T> list = new MyList<T>();
     for (int i = 0; i < times; i++)
@@ -90,7 +90,7 @@ public class Experiments {
    * @param payload The actual string to be inserted
    * @return A reference to the constructed List
    */
-  public static <T>MyList<T> TailInsert(int times, T payload) 
+  public static <T>MyList<T> TailInsert(int times, T payload)
   {
     MyList<T> list = new MyList<T>();
     for (int i = 0; i < times; i++)
