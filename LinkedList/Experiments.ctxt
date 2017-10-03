@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=args
+comment0.target=void\ main(java.lang.String[])
+comment1.params=times\ payload
+comment1.target=lib.MyList\ HeadInsert(int,\ java.lang.Object)
+comment1.text=\n\ Creates\ a\ List\ and\ inserts\ the\ given\ payload\ the\ specified\ number\ of\ times\ at\ the\ head\ of\ the\ list\n\ bumping\ all\ previous\ entries\ down\ the\ List.\n\n\ @param\ times\ How\ many\ times\ the\ payload\ should\ be\ inserted\n\ @param\ payload\ The\ actual\ string\ to\ be\ inserted\n\ @return\ A\ reference\ to\ the\ constructed\ List\n
+comment2.params=times\ payload
+comment2.target=lib.MyList\ TailInsert(int,\ java.lang.Object)
+comment2.text=\n\ Creates\ a\ List\ and\ inserts\ the\ given\ payload\ the\ specified\ number\ of\ times\ at\ the\ tail.\n\n\ @param\ times\ How\ many\ times\ the\ payload\ should\ be\ inserted\n\ @param\ payload\ The\ actual\ string\ to\ be\ inserted\n\ @return\ A\ reference\ to\ the\ constructed\ List\n
+comment3.params=times\ payload
+comment3.target=lib.MyList\ MidpointInsert(int,\ java.lang.Object)
+comment3.text=\n\ Creates\ a\ List\ and\ inserts\ the\ given\ payload\ the\ specified\ number\ of\ times\ in\ the\ middle\ of\ the\ list\n\ bumping\ previous\ entries\ down\ the\ List\ as\ necessary.\ When\ calculating\ the\ midpoint,\ round\ down\ to\ the\n\ nearest\ integer\ index.\ For\ example,\ if\ the\ list\ currently\ contains\ items\ at\ indices\ 0,\ 1,\ and\ 2,\ the\n\ next\ item\ should\ be\ inserted\ at\ index\ 1.\n\n\ @param\ times\ How\ many\ times\ the\ payload\ should\ be\ inserted\n\ @param\ payload\ The\ actual\ string\ to\ be\ inserted\n\ @return\ A\ reference\ to\ the\ constructed\ List\n
+comment4.params=times\ payload
+comment4.target=lib.MyList\ AlternateInsert(int,\ java.lang.Object)
+comment4.text=\n\ Creates\ a\ List\ and\ inserts\ the\ given\ payload\ the\ specified\ number\ of\ times\ as\ if\ the\ List\n\ items\ were\ arranged\ in\ a\ circle\ with\ new\ items\ inserted\ after\ every\ other\ existing\ item.\n\n\ @param\ times\ How\ many\ times\ the\ payload\ should\ be\ inserted\n\ @param\ payload\ The\ actual\ string\ to\ be\ inserted\n\ @return\ A\ reference\ to\ the\ constructed\ List\n
+numComments=5
